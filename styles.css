@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10%;
+}
+.container {
+  width: 250px;
+  height: 400px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+
+  flex-direction: column;
+  padding-top: 10px;
+  border-radius: 12px;
+}
+img {
+  width: 230px;
+  border-radius: 8px;
+  height: 230px;
+  margin-bottom: 15px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.text-content h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+.text-content p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 250px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+
+    flex-direction: column;
+
+    border-radius: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    padding-top: 20%;
+  }
+  .container {
+    width: 200px;
+    height: 350px;
+    display: flex;
+    padding: 5;
+    align-items: center;
+    justify-content: start;
+  }
+  img {
+    width: 180px;
+    border-radius: 8px;
+    height: 180px;
+    margin-bottom: 15px;
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .text-content h4 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .text-content p {
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+  }
+}
+@media screen and (max-width: 275px) {
+  .container {
+    width: 150px;
+    height: 300px;
+    display: flex;
+    padding: 4;
+    align-items: center;
+    justify-content: start;
+  }
+  img {
+    width: 130px;
+    border-radius: 8px;
+    height: 130px;
+    margin-bottom: 15px;
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  }
+  .text-content h4 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .text-content p {
+    font-family: "Outfit", sans-serif;
+    font-size: 10px;
+    color: hsl(220, 15%, 55%);
+  }
+}
